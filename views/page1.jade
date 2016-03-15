@@ -1,0 +1,13 @@
+doctype html
+html(lang="en")
+  head
+  body
+    h1 Welcome to page 1 
+    // links or URLs are always GET resources as they are getting (retrieving) a resource
+    a(href="/") Home
+    a(href="/page2") Page 2
+    a(href="/page3") Page 3
+    a(href="/getName") Show Name
+    ul
+      each val in cats
+        li= val.name + " has " + val.bedsOwned + " beds"

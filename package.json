@@ -1,0 +1,25 @@
+{
+  "name": "simple-mvc-no-jade",
+  "version": "0.0.0",
+  "description": "A simple Express MVC using only static files",
+  "main": "./src/app.js",
+  "scripts": {
+    "start": "node ./src/app.js",
+    "pretest": "jshint ./src",
+    "test": "echo \"tests complete\""
+  },
+  "author": "Cody Van De Mark",
+  "license": "ISC",
+  "devDependencies": {
+    "jshint": "~2.5.6"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "compression": "^1.6.1",
+    "cookie-parser": "^1.4.1",
+    "express": "^4.13.4",
+    "jade": "^1.11.0",
+    "mongoose": "^4.4.6",
+    "serve-favicon": "^2.3.0"
+  }
+}
